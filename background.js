@@ -8,7 +8,7 @@ function setDefaultSettings() {
     if(!value) {
         localStorage["ioscompat"] = true;
     }
-    
+
     value = localStorage["usefont"];
     if(!value) {
     	localStorage["usefont"] = false;
@@ -17,6 +17,11 @@ function setDefaultSettings() {
     value = localStorage["blacklist"];
     if(!value) {
         localStorage["blacklist"] = '';
+    }
+
+    value = localStorage["iconset"];
+    if (!value) {
+        localStorage["iconset"] = 'apple';
     }
 }
 

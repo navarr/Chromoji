@@ -27,6 +27,15 @@
                 </div>
                 <br>
                 <div class="field">
+                    <select name="iconset" id="iconset">
+                        <option value="apple">iOS/Mac OSX</option>
+                        <option value="google">Android/Google Hangouts</option>
+                    </select>
+                    <label for="iconset" id="labeliconset">Icon Set</label>
+                    <div class="fielddescription">This allows you to select the set of emoji to use.</div>
+                </div>
+                <br>
+                <div class="field">
                     <label for="fieldblacklist" id="labeleblacklist">Blacklist</label>
                     <div class="fielddescription">A list of any domains which should not display emoji. This should be the last part of any domain seperated with commas "," e.g. google.com will include images.google.com, le.com will include google.com too as it ends in le.com (so be careful).</div>
                     <div><textarea name="fieldblacklist" id="fieldblacklist"></textarea></div>
