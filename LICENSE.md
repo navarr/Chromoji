@@ -1,0 +1,15 @@
+LICENSE
+
+You can study the code for learning purposes.
+You can use it on noncommercial websites.
+
+But you are not allowed to redistribute
+this as an extension in whole or in part.
+
+You are not allowed to use the replacement
+engine inside commercial software without
+the author's permission.
+
+This license should be included in all cases.
+
+Contact: locomojis@gmail.com
